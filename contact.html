@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EASTCSO | Mawasiliano</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav-wrap">
+    <div class="logo-group">
+      <img src="images/eastcso-logo.jpg" alt="EASTC Logo">
+      <div class="logo-text">
+        <div class="t1">EASTCSO</div>
+        <div class="t2">Achieving Excellence</div>
+      </div>
+    </div>
+
+    <nav class="nav-desktop">
+      <a href="index.html" target="_self">Nyumbani</a>
+      <a href="about.html" target="_self">Kuhusu</a>
+      <a href="leaders.html" target="_self">Viongozi</a>
+      <a href="contact.html" class="active" target="_self">Mawasiliano</a>
+    </nav>
+
+    <div class="nav-right">
+      <a href="login.html" class="nav-login-btn" target="_self">Ingia (Login)</a>
+      <button class="hamburger" aria-label="Fungua menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <nav class="nav-mobile">
+    <a href="index.html" target="_self">Nyumbani</a>
+    <a href="about.html" target="_self">Kuhusu</a>
+    <a href="leaders.html" target="_self">Viongozi</a>
+    <a href="contact.html" class="active" target="_self">Mawasiliano</a>
+    <a href="login.html" class="nav-login-btn" target="_self">Ingia (Login)</a>
+  </nav>
+</header>
+
+<section class="section" style="padding-top:60px;">
+  <div class="container grid-2">
+    <div>
+      <div class="eyebrow">Wasiliana Nasi</div>
+      <h2 class="section-title">Tunafurahi Kusikia Kutoka Kwako</h2>
+      <p style="color:var(--grey);margin-bottom:20px;">
+        Una swali, maoni, au unahitaji msaada kuhusu shughuli za EASTCSO? Jaza fomu hii na timu yetu itawasiliana
+        nawe haraka iwezekanavyo.
+      </p>
+      <p style="color:var(--grey);"><strong>Anwani:</strong> EASTC, Kijitonyama, Dar es Salaam</p>
+      <p style="color:var(--grey);"><strong>Barua pepe:</strong> eastcso@eastc.ac.tz</p>
+    </div>
+
+    <div class="form-card">
+      <h2>Tuma Ujumbe</h2>
+      <p class="lead">Ujumbe wako utahifadhiwa kwenye mfumo wetu.</p>
+      <div id="contact-msg" class="form-msg"></div>
+      <form id="contact-form">
+        <div class="field">
+          <label for="full_name">Jina Kamili</label>
+          <input type="text" id="full_name" name="full_name" required>
+        </div>
+        <div class="field">
+          <label for="email">Barua Pepe</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="field">
+          <label for="message">Ujumbe</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary full-btn">Tuma Ujumbe</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>EASTCSO</h4>
+        <p>Eastern Africa Statistical Training Centre Student's Organisation. "Serving students through Students".</p>
+      </div>
+      <div>
+        <h4>Viungo</h4>
+        <a href="index.html" target="_self">Nyumbani</a><br>
+        <a href="about.html" target="_self">Kuhusu</a><br>
+        <a href="leaders.html" target="_self">Viongozi</a>
+      </div>
+      <div>
+        <h4>Wasiliana</h4>
+        <p>EASTC, Kijitonyama<br>Dar es Salaam, Tanzania</p>
+      </div>
+    </div>
+    <div class="footer-bottom">&copy; 2026 EASTCSO. Haki zote zimehifadhiwa.</div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

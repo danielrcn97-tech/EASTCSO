@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EASTCSO | Nyumbani</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav-wrap">
+    <div class="logo-group">
+      <img src="images/eastcso-logo.jpg" alt="EASTC Logo">
+      <div class="logo-text">
+        <div class="t1">EASTCSO</div>
+        <div class="t2">Achieving Excellence</div>
+      </div>
+    </div>
+
+    <nav class="nav-desktop">
+      <a href="index.html" class="active" target="_self">Nyumbani</a>
+      <a href="about.html" target="_self">Kuhusu</a>
+      <a href="leaders.html" target="_self">Viongozi</a>
+      <a href="contact.html" target="_self">Mawasiliano</a>
+    </nav>
+
+    <div class="nav-right">
+      <a href="login.html" class="nav-login-btn" target="_self">Ingia (Login)</a>
+      <button class="hamburger" aria-label="Fungua menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <nav class="nav-mobile">
+    <a href="index.html" class="active" target="_self">Nyumbani</a>
+    <a href="about.html" target="_self">Kuhusu</a>
+    <a href="leaders.html" target="_self">Viongozi</a>
+    <a href="contact.html" target="_self">Mawasiliano</a>
+    <a href="login.html" class="nav-login-btn" target="_self">Ingia (Login)</a>
+  </nav>
+</header>
+
+<!-- HERO CAROUSEL -->
+<section class="hero">
+  <div class="hero-slide active"><img src="images/group2.jpg" alt="Wanafunzi wa EASTC"></div>
+  <div class="hero-slide"><img src="images/group1.jpg" alt="Uongozi wa EASTCSO"></div>
+
+  <div class="hero-overlay">
+    <div class="eyebrow">Mwaka wa Masomo 2025/2026</div>
+    <h1>Karibu kwenye Tovuti ya EASTCSO</h1>
+    <p>Tunaratibu shughuli za wanafunzi, matukio, matangazo, uongozi, na mawasiliano kati ya wanafunzi na uongozi wa chuo.</p>
+    <div style="margin-top:22px;">
+      <a href="about.html" class="btn btn-outline" target="_self">Soma Zaidi</a>
+    </div>
+  </div>
+
+  <div class="hero-dots">
+    <span class="active"></span>
+    <span></span>
+  </div>
+
+  <div class="about-corner">
+    <h4>Kuhusu EASTC</h4>
+    <p>Eastern Africa Statistical Training Centre (EASTC) ni chuo kinachofundisha takwimu na taaluma zinazohusiana, kikiwa na kauli mbiu "Plan with Figures".</p>
+  </div>
+</section>
+
+<!-- QUICK INFO CARDS -->
+<section class="section">
+  <div class="container">
+    <div class="eyebrow">EASTCSO kwa Ufupi</div>
+    <h2 class="section-title">Tunayotoa kwa Wanafunzi</h2>
+    <p class="section-sub">EASTC Students Organization (EASTCSO) inahudumia wanafunzi kupitia maeneo makuu manne yafuatayo.</p>
+
+    <div class="grid-3">
+      <div class="card">
+        <div class="icon-circle">01</div>
+        <h3>Uongozi na Utawala</h3>
+        <p>Muundo kamili wa uongozi kuanzia Rais, Mawaziri, hadi Manaibu Waziri.</p>
+      </div>
+      <div class="card">
+        <div class="icon-circle">02</div>
+        <h3>Matukio na Shughuli</h3>
+        <p>Matukio ya kitaaluma, michezo, burudani na mengine ya wanafunzi.</p>
+      </div>
+      <div class="card">
+        <div class="icon-circle">03</div>
+        <h3>Huduma kwa Wanafunzi</h3>
+        <p>Mawasiliano kati ya wanafunzi na uongozi wa chuo kwa masuala mbalimbali.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ANNOUNCEMENTS (live from database via PHP) -->
+<section class="section" style="background:var(--white);">
+  <div class="container">
+    <div class="eyebrow">Matangazo</div>
+    <h2 class="section-title">Matangazo ya Hivi Karibuni</h2>
+    <p class="section-sub">Yanapakiwa moja kwa moja kutoka kwenye mfumo (database) — Admin anaweza kuongeza/kuhariri kupitia Dashboard.</p>
+    <div id="announcements-list">
+      <p style="color:var(--grey);">Inapakia matangazo...</p>
+    </div>
+  </div>
+  <h2 style="position: relative; left:40px; top:40px;">Executive Leadership</h2>
+
+                <div class="leaders1" style="position: relative; top:50px;">
+
+                    <div class="card1">
+                        <h3>President</h3>
+                        <p>Mario Macha</p>
+                    </div>
+
+                    <div class="card1">
+                        <h3>Vice President</h3>
+                        <p>Nesta Msola</p>
+                    </div>
+
+                    <div class="card1">
+                        <h3>Prime Minister</h3>
+                        <p>Tumaini Hosea</p>
+                    </div>
+
+                    <div class="card1">
+                        <h3>Chief Secretary</h3>
+                        <p>Steven Ladislaus</p>
+                    </div>
+
+                </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>EASTCSO</h4>
+        <p>Eastern Africa Statistical Training Centre Student's Organisation. Tunahudumu kwa kauli mbiu "Serving students through Students".</p>
+      </div>
+      <div>
+        <h4>Viungo</h4>
+        <a href="about.html" target="_self">Kuhusu Sisi</a><br>
+        <a href="leaders.html" target="_self">Viongozi</a><br>
+        <a href="contact.html" target="_self">Mawasiliano</a>
+      </div>
+      <div>
+        <h4>Wasiliana</h4>
+        <p>EASTC, Kijitonyama<br>Dar es Salaam, Tanzania</p>
+      </div>
+    </div>
+    <div class="footer-bottom">&copy; 2026 EASTCSO. Haki zote zimehifadhiwa.</div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

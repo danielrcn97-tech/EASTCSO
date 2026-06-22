@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EASTCSO | Ingia</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  .login-page{
+    min-height:100vh;display:flex;align-items:center;justify-content:center;
+    background:linear-gradient(135deg,var(--blue-deep),var(--blue-bright));
+    padding:24px;
+  }
+  .login-brand{text-align:center;margin-bottom:24px;}
+  .login-brand img{width:64px;margin:0 auto 10px;border-radius:50%;}
+  .login-brand h3{color:var(--white);font-size:18px;}
+  .back-link{display:block;text-align:center;margin-top:18px;color:var(--blue-bright);font-size:13.5px;font-weight:600;}
+</style>
+</head>
+<body>
+
+<div class="login-page">
+  <div>
+    <div class="login-brand">
+      <img src="images/eastcso-logo.jpg" alt="EASTCSO">
+      <h3>EASTCSO Admin Portal</h3>
+    </div>
+
+    <div class="form-card">
+      <h2>Ingia (Login)</h2>
+      <p class="lead">Tumia akaunti ya msimamizi kuingia kwenye Dashboard.</p>
+      <div id="login-msg" class="form-msg"></div>
+      <form id="login-form">
+        <div class="field">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" required>
+        </div>
+        <div class="field">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit" class="btn btn-primary full-btn">Ingia</button>
+      </form>
+      <a href="index.html" class="back-link" target="_self">&larr; Rudi kwenye Tovuti</a>
+    </div>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
